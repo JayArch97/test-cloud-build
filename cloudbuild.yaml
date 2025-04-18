@@ -23,4 +23,6 @@ steps:
       - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
 
 options:
-  logBucket: 'gs://REGIONAL_USER_OWNED_BUCKET'
+  cloudStorageSettings:
+    defaultLogsBucket: 'gs://REGIONAL_USER_OWNED_BUCKET'
+  logging: GCS_ONLY
