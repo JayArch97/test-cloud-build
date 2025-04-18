@@ -22,6 +22,6 @@ steps:
       - 'CLOUDSDK_COMPUTE_REGION=us-central1'
       - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
 
-options:
-  logging: GCS_ONLY
+    options:
+      default_logs_bucket: REGIONAL_USER_OWNED_BUCKET
       
